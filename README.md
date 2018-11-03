@@ -1,6 +1,6 @@
 # Tetris
 Hey there! This is a project that I coded as my AP Computer Science final in 2018. It's a simple Tetris game in Java (Tetris-Client directory), with 1 player and 2 player options. In order to enable 2 player gameplay, you need the Tetris Node.js server that I created along with it (Tetris-Server directory).
-<br>
+
 This is by _no_ means supposed to be at any production level, just meant to be a simple game to host on a local network with friends. It has no security and the IP is hard-coded into the source code.
 
 ## Gameplay
@@ -27,7 +27,7 @@ It should tell you the port that it's running on in the console, which is port `
 
 ### Set Up Client
 In the `Tetris-Client` directory, find line 19 in the file `src/InternetUtilities.java`. Change the text from `YOUR-IP-HERE.COM` to your IP or domain name.
-<br>
+
 Now you're ready to compile and run your Tetris Client.
 
 ## Images
