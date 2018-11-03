@@ -18,10 +18,14 @@ Two players are playing Tetris at the same time. Each time break a row, your opp
 ## Installation
 ### Set Up Server
 In order to set up the Node.js server, find your favorite environment and run this command in the `Tetris-Server` directory:
-```npm install```
+```bash
+npm install
+```
 
 Now you're ready to run the server:
-```node index.js```
+```bash
+node index.js
+```
 
 It should tell you the port that it's running on in the console, which is port `4444`. Make note of the host's IP or domain, because you'll need to add this to the Tetris Client before you compile its source code. If you want to access it out of the scope of your local network, make sure you port-forward your network.
 
